@@ -1,5 +1,27 @@
 body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-container {
+        width: 327px;
+        height: 780px;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 8px;
+        background-color: #1B1937;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        filter: opacity(0.3) drop-shadow(0 0 0 #AB5CDB) contrast(1.2) brightness(0.8) saturate(2.5);
+    }
 }
 
