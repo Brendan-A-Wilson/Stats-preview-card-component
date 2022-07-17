@@ -19,7 +19,7 @@ A project solution to the Stats preview card component challenge on Frontend Men
 * Extract the file by right clicking on it and then click 'extract here'.
 * Open the folder and double click on 'index.html' to open the webpage.
 
-* Live Site URL: () into the address bar on the web browser.
+* Live Site URL: copy link into address bar or click (https://brendan-a-wilson.github.io/Stats-preview-card-component/).
 
 ## My Process
 
