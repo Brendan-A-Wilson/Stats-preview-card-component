@@ -19,7 +19,7 @@ p {
 #main-container {
     background-color: #1B1937;
     width: 327px;
-    height: 780px;
+    height: auto;
     border: solid 1px;
     border-color: black;
     border-radius: 8px;
@@ -82,13 +82,49 @@ img {
 
 /*Media queries styling for desktop design*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1200px) {
     #main-container {
-    width: 327px;
-    height: 780px;
+    width: 1110px;
+    height: 446px;
     border: solid 1px;
     border-color: black;
     border-radius: 8px;
     background-color: #1B1937;
+    }
+
+    img {
+    width: 50%;
+    height: 446px;
+    float: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    filter: opacity(0.3) drop-shadow(0 0 0 #AB5CDB) contrast(1.2) brightness(0.8) saturate(2.5);
+    }
+
+    .main-header {
+        width: 35%;
+        
+    }
+
+    .main-header h1 {
+        text-align: left;
+    }
+
+    .paragraph-text {
+        width: 35%;
+    }
+
+    .paragraph-text p {
+        text-align: left;
+    }
+
+    .figures {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .figures div h1 {
+        text-align: left;
     }
 }
