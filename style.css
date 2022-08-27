@@ -53,10 +53,11 @@ img {
 
 .paragraph-text {
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     margin-top: 20px;
     font-family: "Inter", "Times New Roman";
     font-size: 15px;
+    padding: 0px 30px 0px 30px;
 }
 
 /*Figures section styling*/
@@ -102,26 +103,37 @@ img {
     }
 
     .main-header {
-        width: 35%;
-        
+        width: 40%;
+        margin-top: 70px;
+        margin-left: 40px;
     }
 
     .main-header h1 {
         text-align: left;
+        font-size: 36px;
     }
 
     .paragraph-text {
-        width: 35%;
+        width: 38%;
+        margin-left: 40px;
+        margin-top: 30px;
     }
 
     .paragraph-text p {
         text-align: left;
+        line-height: 1.6;
+        color:#FFFFFF;
     }
 
     .figures {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .figures div {
+        margin-right: 10px;
+        margin-top: 25px;
     }
 
     .figures div h1 {
